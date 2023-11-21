@@ -60,6 +60,7 @@ const App = () => {
                         </div>
                     )
                     : (
+                        // if no movies found, show this (empty)
                         <div className="empty">
                             <h2>No movies found</h2>
                         </div>
